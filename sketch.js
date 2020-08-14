@@ -1,10 +1,6 @@
 var helicopterIMG, helicopterSprite, packageSprite,packageIMG;
 var paper1, ground1, dustbin1, dustbin2, dustbin3;
-const Engine = Matter.Engine;
-const World = Matter.World;
-const Bodies = Matter.Bodies;
-const Body = Matter.Body;
-const Render = Matter.Render;
+const {Engine, World, Bodies, Body, Render} = Matter;
 function preload()
 {
 	
